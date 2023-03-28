@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.border{
+    border: 2px dashed black;
+    height: 400px;
+    width: 800px;
+    position: relative;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    border-radius: 5%;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+    right: 0;
+}
+.yellow{
+    background-color: yellow;
+    bottom: 0;
+}
+.green{
+    background-color: rgb(70, 210, 70);
+    bottom: 0;
+    right: 0;
+}
+.blue{
+    background-color: rgb(33, 170, 201);
+    top: 38%;
+    left: 38%;
+}
